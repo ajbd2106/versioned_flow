@@ -46,6 +46,36 @@
           "destination" : {
             "comments" : "",
             "groupId" : "2e512df8-0ae4-3de7-ae41-663cf170adbc",
+            "id" : "d206f20d-c9eb-34fc-8913-c82537855320",
+            "name" : "PutFile",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "2e512df8-0ae4-3de7-ae41-663cf170adbc",
+          "identifier" : "5ac13e26-dacd-341c-a1df-58902bc2d633",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "comments_in_english" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "2e512df8-0ae4-3de7-ae41-663cf170adbc",
+            "id" : "a71af06a-ddc4-31b4-a0b9-9a967152e88e",
+            "name" : "QueryRecord",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "2e512df8-0ae4-3de7-ae41-663cf170adbc",
             "id" : "62b2b0ab-15f9-3ef1-bb05-2e08fbc6b457",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
