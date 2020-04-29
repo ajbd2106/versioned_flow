@@ -1,7 +1,5 @@
 flows:
   06e9e43d-106c-400a-8dae-7f2f73e739c2: {ver: 2, file: CDF_Workshop.snapshot, comments: putfile,
     author: anonymous, created: 1588172289677, flowName: CDF_Workshop, flowDesc: ''}
-  60c67e31-2672-41c1-a61c-83d08bffed8f: {ver: 2, file: Lookup-table.snapshot, comments: version
-      2, author: anonymous, created: 1588165985910, flowName: Lookup-table, flowDesc: ''}
 layoutVer: 1
 bucketId: b0398dff-29a8-498c-9c2e-d01fd1534e0d
