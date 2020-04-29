@@ -16,6 +16,36 @@
           "destination" : {
             "comments" : "",
             "groupId" : "e4fba87b-e1e3-35d5-aced-38f1c3200fe1",
+            "id" : "88cd0b45-8bfd-3b95-a580-a90b571a0509",
+            "name" : "LogAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "e4fba87b-e1e3-35d5-aced-38f1c3200fe1",
+          "identifier" : "701490aa-413a-3983-9899-836207130cdd",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "failure" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "e4fba87b-e1e3-35d5-aced-38f1c3200fe1",
+            "id" : "891d5d11-9bb6-3bf3-824c-a78bbbf39560",
+            "name" : "MergeContent",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "e4fba87b-e1e3-35d5-aced-38f1c3200fe1",
             "id" : "e04d3a42-0654-3612-859c-974979c2b466",
             "name" : "LookupRecord_SimpleKV",
             "type" : "PROCESSOR"
