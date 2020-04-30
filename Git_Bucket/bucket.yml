@@ -1,5 +1,7 @@
 flows:
   06e9e43d-106c-400a-8dae-7f2f73e739c2: {ver: 2, file: CDF_Workshop.snapshot, comments: putfile,
     author: anonymous, created: 1588172289677, flowName: CDF_Workshop, flowDesc: ''}
+  8f8596ea-1f46-4375-862a-12f9680c6fbc: {ver: 1, file: Kafka-ingestion.snapshot, comments: '',
+    author: anonymous, created: 1588236236068, flowName: Kafka-ingestion, flowDesc: ''}
 layoutVer: 1
 bucketId: b0398dff-29a8-498c-9c2e-d01fd1534e0d
