@@ -3,7 +3,7 @@ flows:
     author: anonymous, created: 1588172289677, flowName: CDF_Workshop, flowDesc: ''}
   8f113cf7-7346-4d70-90d4-f5e12daf0804: {ver: 1, file: Prod-kafka.snapshot, comments: '',
     author: anonymous, created: 1588236477095, flowName: Prod-kafka, flowDesc: ''}
-  8f8596ea-1f46-4375-862a-12f9680c6fbc: {ver: 1, file: Kafka-ingestion.snapshot, comments: '',
-    author: anonymous, created: 1588236236068, flowName: Kafka-ingestion, flowDesc: ''}
+  8f8596ea-1f46-4375-862a-12f9680c6fbc: {ver: 2, file: Kafka-ingestion.snapshot, comments: prod,
+    author: anonymous, created: 1588236655071, flowName: Kafka-ingestion, flowDesc: ''}
 layoutVer: 1
 bucketId: b0398dff-29a8-498c-9c2e-d01fd1534e0d

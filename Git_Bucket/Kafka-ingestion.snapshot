@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
             "id" : "d050668b-97d4-3da0-9cc5-15dda1136fa2",
             "name" : "Funnel",
             "type" : "FUNNEL"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
           "identifier" : "a91e960b-5326-331e-9039-317bc186e76a",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -32,7 +32,7 @@
           "selectedRelationships" : [ "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
             "id" : "4d37b571-e04a-35e6-93bd-3629e311a424",
             "name" : "PublishKafka",
             "type" : "PROCESSOR"
@@ -45,13 +45,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
             "id" : "4d37b571-e04a-35e6-93bd-3629e311a424",
             "name" : "PublishKafka",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
           "identifier" : "c860c360-e928-3287-a097-7d875b46097b",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -62,7 +62,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
             "id" : "5b577685-1b14-3afc-9c57-fd798fcdbdf2",
             "name" : "GenerateFlowFile",
             "type" : "PROCESSOR"
@@ -75,13 +75,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
             "id" : "9ee8c722-ae56-3415-91bd-54ba0ee2ea0b",
             "name" : "Funnel",
             "type" : "FUNNEL"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
           "identifier" : "9ca65b46-0440-3705-b6b5-428562ea974a",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -92,7 +92,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
             "id" : "4d37b571-e04a-35e6-93bd-3629e311a424",
             "name" : "PublishKafka",
             "type" : "PROCESSOR"
@@ -102,7 +102,7 @@
         "controllerServices" : [ ],
         "funnels" : [ {
           "componentType" : "FUNNEL",
-          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
           "identifier" : "9ee8c722-ae56-3415-91bd-54ba0ee2ea0b",
           "position" : {
             "x" : 1256.0,
@@ -110,21 +110,21 @@
           }
         }, {
           "componentType" : "FUNNEL",
-          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
           "identifier" : "d050668b-97d4-3da0-9cc5-15dda1136fa2",
           "position" : {
             "x" : 1263.9999996671866,
             "y" : -3.999981867735414
           }
         } ],
-        "identifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+        "identifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
         "inputPorts" : [ ],
         "labels" : [ {
           "componentType" : "LABEL",
-          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
           "height" : 56.0,
           "identifier" : "5db788e4-7535-3982-9374-3d5a57f01871",
-          "label" : "Dev Stage",
+          "label" : "Prod Stage",
           "position" : {
             "x" : 456.0,
             "y" : -40.0
@@ -137,8 +137,8 @@
         "name" : "Kafka Ingestion",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 1136.0,
-          "y" : 1248.0
+          "x" : 568.0,
+          "y" : 232.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -153,7 +153,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
           "identifier" : "5b577685-1b14-3afc-9c57-fd798fcdbdf2",
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
@@ -225,7 +225,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
           "identifier" : "4d37b571-e04a-35e6-93bd-3629e311a424",
           "name" : "PublishKafka",
           "penaltyDuration" : "30 sec",
