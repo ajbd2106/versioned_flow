@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
             "id" : "d050668b-97d4-3da0-9cc5-15dda1136fa2",
             "name" : "Funnel",
             "type" : "FUNNEL"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
           "identifier" : "a91e960b-5326-331e-9039-317bc186e76a",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -32,7 +32,7 @@
           "selectedRelationships" : [ "failure" ],
           "source" : {
             "comments" : "",
-            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
             "id" : "4d37b571-e04a-35e6-93bd-3629e311a424",
             "name" : "PublishKafka",
             "type" : "PROCESSOR"
@@ -45,13 +45,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
             "id" : "4d37b571-e04a-35e6-93bd-3629e311a424",
             "name" : "PublishKafka",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
           "identifier" : "c860c360-e928-3287-a097-7d875b46097b",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -62,7 +62,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
             "id" : "5b577685-1b14-3afc-9c57-fd798fcdbdf2",
             "name" : "GenerateFlowFile",
             "type" : "PROCESSOR"
@@ -75,13 +75,43 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+            "id" : "ff0e7ce3-bebc-3acc-99b5-53aeb3864b45",
+            "name" : "LogAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "identifier" : "f90a34d1-8011-3a54-b856-28080d57b773",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+            "id" : "4d37b571-e04a-35e6-93bd-3629e311a424",
+            "name" : "PublishKafka",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
             "id" : "9ee8c722-ae56-3415-91bd-54ba0ee2ea0b",
             "name" : "Funnel",
             "type" : "FUNNEL"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
           "identifier" : "9ca65b46-0440-3705-b6b5-428562ea974a",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -92,7 +122,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+            "groupId" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
             "id" : "4d37b571-e04a-35e6-93bd-3629e311a424",
             "name" : "PublishKafka",
             "type" : "PROCESSOR"
@@ -102,7 +132,7 @@
         "controllerServices" : [ ],
         "funnels" : [ {
           "componentType" : "FUNNEL",
-          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
           "identifier" : "9ee8c722-ae56-3415-91bd-54ba0ee2ea0b",
           "position" : {
             "x" : 1256.0,
@@ -110,21 +140,21 @@
           }
         }, {
           "componentType" : "FUNNEL",
-          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
           "identifier" : "d050668b-97d4-3da0-9cc5-15dda1136fa2",
           "position" : {
             "x" : 1263.9999996671866,
             "y" : -3.999981867735414
           }
         } ],
-        "identifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+        "identifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
         "inputPorts" : [ ],
         "labels" : [ {
           "componentType" : "LABEL",
-          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
           "height" : 56.0,
           "identifier" : "5db788e4-7535-3982-9374-3d5a57f01871",
-          "label" : "Prod Stage",
+          "label" : "Dev Stage",
           "position" : {
             "x" : 456.0,
             "y" : -40.0
@@ -137,8 +167,8 @@
         "name" : "Kafka Ingestion",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 568.0,
-          "y" : 232.0
+          "x" : 1000.0,
+          "y" : 1224.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -153,7 +183,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
           "identifier" : "5b577685-1b14-3afc-9c57-fd798fcdbdf2",
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
@@ -217,6 +247,89 @@
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.11.4"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
+          "identifier" : "ff0e7ce3-bebc-3acc-99b5-53aeb3864b45",
+          "name" : "LogAttribute",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 648.0,
+            "y" : 432.0
+          },
+          "properties" : {
+            "character-set" : "UTF-8",
+            "Log Level" : "info",
+            "attributes-to-log-regex" : ".*",
+            "Log Payload" : "false"
+          },
+          "propertyDescriptors" : {
+            "Log prefix" : {
+              "displayName" : "Log prefix",
+              "identifiesControllerService" : false,
+              "name" : "Log prefix",
+              "sensitive" : false
+            },
+            "character-set" : {
+              "displayName" : "Character Set",
+              "identifiesControllerService" : false,
+              "name" : "character-set",
+              "sensitive" : false
+            },
+            "Log Level" : {
+              "displayName" : "Log Level",
+              "identifiesControllerService" : false,
+              "name" : "Log Level",
+              "sensitive" : false
+            },
+            "attributes-to-ignore-regex" : {
+              "displayName" : "Attributes to Ignore by Regular Expression",
+              "identifiesControllerService" : false,
+              "name" : "attributes-to-ignore-regex",
+              "sensitive" : false
+            },
+            "Attributes to Ignore" : {
+              "displayName" : "Attributes to Ignore",
+              "identifiesControllerService" : false,
+              "name" : "Attributes to Ignore",
+              "sensitive" : false
+            },
+            "Attributes to Log" : {
+              "displayName" : "Attributes to Log",
+              "identifiesControllerService" : false,
+              "name" : "Attributes to Log",
+              "sensitive" : false
+            },
+            "attributes-to-log-regex" : {
+              "displayName" : "Attributes to Log by Regular Expression",
+              "identifiesControllerService" : false,
+              "name" : "attributes-to-log-regex",
+              "sensitive" : false
+            },
+            "Log Payload" : {
+              "displayName" : "Log Payload",
+              "identifiesControllerService" : false,
+              "name" : "Log Payload",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogAttribute",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
             "artifact" : "nifi-kafka-0-9-nar",
             "group" : "org.apache.nifi",
             "version" : "1.11.4"
@@ -225,7 +338,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+          "groupIdentifier" : "bdae055c-b73f-3789-914d-9b240a7e3ddc",
           "identifier" : "4d37b571-e04a-35e6-93bd-3629e311a424",
           "name" : "PublishKafka",
           "penaltyDuration" : "30 sec",
