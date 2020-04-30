@@ -18,9 +18,35 @@
         "outputPorts" : [ ],
         "position" : {
           "x" : 1496.0,
-          "y" : 1240.0
+          "y" : 1224.0
         },
-        "processGroups" : [ ],
+        "processGroups" : [ {
+          "comments" : "",
+          "componentType" : "PROCESS_GROUP",
+          "connections" : [ ],
+          "controllerServices" : [ ],
+          "funnels" : [ ],
+          "groupIdentifier" : "056424cd-4247-3554-85c4-be931a878d09",
+          "identifier" : "12fcef2b-3c08-3871-a0ae-04de44387218",
+          "inputPorts" : [ ],
+          "labels" : [ ],
+          "name" : "Kafka Ingestion",
+          "outputPorts" : [ ],
+          "position" : {
+            "x" : 568.0,
+            "y" : 232.0
+          },
+          "processGroups" : [ ],
+          "processors" : [ ],
+          "remoteProcessGroups" : [ ],
+          "variables" : { },
+          "versionedFlowCoordinates" : {
+            "bucketId" : "b0398dff-29a8-498c-9c2e-d01fd1534e0d",
+            "flowId" : "8f8596ea-1f46-4375-862a-12f9680c6fbc",
+            "registryUrl" : "http://localhost:18080",
+            "version" : 2
+          }
+        } ],
         "processors" : [ ],
         "remoteProcessGroups" : [ ],
         "variables" : { }
